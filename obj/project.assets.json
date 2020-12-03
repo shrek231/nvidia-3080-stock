@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "RestSharp/106.11.8-alpha.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestSharp/106.11.8-alpha.0.7": {
+      "sha512": "fSYTkXZyQcsQjkeW1leQcaSYU7I9sBgYkSrl3mwCWBgXB9Yg73DhY4Ts56YqePHLM4u2lXvMNV+CyZj/cx7ehw==",
+      "type": "package",
+      "path": "restsharp/106.11.8-alpha.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.8-alpha.0.7.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "RestSharp >= 106.11.8-alpha.0.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gavin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gavin\\Desktop\\NVIDIA\\NVIDIA.csproj",
+      "projectName": "NVIDIA",
+      "projectPath": "C:\\Users\\gavin\\Desktop\\NVIDIA\\NVIDIA.csproj",
+      "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gavin\\Desktop\\NVIDIA\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gavin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.8-alpha.0.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
